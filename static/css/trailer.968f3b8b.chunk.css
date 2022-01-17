@@ -1,0 +1,2 @@
+.trailer-container{display:flex;justify-content:center;max-width:100%}.responsive-iframe{height:auto;width:100vw}@media screen and (min-width:768px) and (max-width:1199px){.trailer-container .responsive-iframe{max-height:100vh;max-width:100vw;width:calc(100vw - 96px)}}@media screen and (min-width:1200px){.trailer-container .responsive-iframe{height:calc(100vh - 96px);width:calc(100vw - 144px)}}
+/*# sourceMappingURL=trailer.968f3b8b.chunk.css.map*/
