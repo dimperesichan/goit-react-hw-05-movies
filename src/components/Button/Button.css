@@ -1,0 +1,62 @@
+.ButtonWrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.Button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  min-width: 180px;
+  font-family: var(--big);
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px;
+  color: var(--white);
+  background-image: linear-gradient(
+    to right,
+    var(--gradient-start-color) 0%,
+    var(--gradient-middle-color) 51%,
+    var(--gradient-end-color) 100%
+  );
+  background-size: 200% auto;
+  border-radius: 10px;
+  box-shadow: var(--search-button-full-shadow);
+  cursor: pointer;
+  transition: all 250ms var(--cubic);
+}
+.Button:hover,
+.Button:focus {
+  background-color: var(--light-blue);
+  border-radius: 3px;
+  outline: none;
+  color: var(--white);
+  transform: scale(1.1);
+  background-image: linear-gradient(
+    to right,
+    var(--gradient-start-hover-color) 0%,
+    var(--gradient-middle-hover-color) 51%,
+    var(--gradient-end-hover-color) 100%
+  );
+}
+.Button:focus,
+.Button:active {
+  outline: none;
+  transform: scale(1.1);
+}
+.Button:disabled {
+  cursor: not-allowed;
+  color: var(--white);
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  opacity: 0.5;
+  transform: scale(1);
+}
+.Button:disabled:hover {
+  border: 1px solid var(--red);
+}

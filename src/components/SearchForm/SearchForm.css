@@ -1,0 +1,11 @@
+.search-form {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.search-form .form-input {
+  margin-right: 5px;
+  padding: 5px;
+  width: 60%;
+  max-width: 60%;
+}
