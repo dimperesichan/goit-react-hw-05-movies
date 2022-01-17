@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import slugify from 'slugify';
 import { BASE_SRC } from '../../helpers/constants';
 import './MoviesList.css';
-import notFoundImage from '../../images/No-Image-Placeholder.svg';
+import notFoundImage from '../../images/no-poster.png';
 const makeSlug = string => slugify(string, { lower: true });
 export default function MoviesList({ movies, url }) {
   const location = useLocation();
